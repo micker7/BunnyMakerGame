@@ -1,0 +1,279 @@
+@font-face {
+    font-family: hercules;
+    src: url(/donut-maker-micker7/docs/hercules/Hercules.ttf);
+}
+
+@media (max-width: 800px) {
+    .left, .right {
+      flex: 100%;
+    }
+  }
+
+/** { border: 1px solid black; }*/
+/*-----------------------------------------------------------MAIN---------------------------------------------------------*/
+
+body{
+    background-color: pink;
+    height:fit-content;
+    margin: 0;
+    font-family:hercules;
+    color:rgb(49, 141, 110); 
+    display:flex;
+    flex-direction: row;
+    flex-direction: column;
+    width: 100%;
+    
+    
+
+    
+}
+
+.grid{
+    display:flex;
+    gap: 30px;
+    font-style: hercules;
+    color:rgb(49, 141, 110); 
+    padding-left: 100px;
+    padding-right: 100px;
+        
+    
+}
+
+.grid1{
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+    font-style: hercules;
+    color:rgb(49, 141, 110); 
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+.grid2{
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+    font-style: hercules;
+    color:rgb(49, 141, 110); 
+    font-size: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+/*-----------------------------------------------------------HEADERS---------------------------------------------------------*/
+.headerGrid{
+    display:flex;
+    flex-wrap: wrap;
+    padding: 20px 40px;
+    background-color: blanchedalmond;
+    align-items: center;
+    font-family: hercules;
+    border-bottom: dotted; color:rgb(49, 141, 110); 
+    overflow: auto;
+    resize: both;
+    
+}
+
+header h1{
+    justify-content: flex-start;
+    color:rgb(49, 141, 110); 
+    font-size: 35px;
+}
+
+.headerGrid nav{
+    margin-left:auto;
+}
+
+
+header nav a {
+    color:rgb(49, 141, 110); 
+    font-size: 25px;
+    text-decoration: none;
+    padding-left: 10px;
+    
+}
+
+.grid1 h1{
+    text-align: center;
+}
+
+/*--------------------------------------------------------DIVS------------------------------------------------------------*/
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:fit-content;
+    margin:auto;
+    width:25%;
+    
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:fit-content;
+    width: 50%;
+    
+    
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:fit-content;
+    margin:auto;
+    width: 25%;
+    
+}
+
+/*--------------------------------------------------------SECTIONS------------------------------------------------------------*/
+.about{
+    text-align: left;
+}
+
+.linkedIn{
+    text-align: center;
+}
+.cookieLink{
+    margin: auto;
+}
+
+/*--------------------------------------------------------BUTTONS------------------------------------------------------------*/
+
+/*RESET*/
+#resetButton {
+    font-family:hercules; 
+    font-size: 25px;
+    background-color: blanchedalmond;
+    padding: 15px 32px;
+    margin:auto;
+    position: absolute;
+    right:0;
+    bottom:0;    
+    border-radius: 25px;
+     
+}
+
+/*ADD AUTOCLICKER*/
+#autoBunny { 
+    font-family:hercules; 
+    font-size: 25px;
+    padding: 15px 32px;
+    background-color: blanchedalmond;
+    border-radius: 25px;
+    
+}
+
+/*ADD MULTIPLIER*/
+#multiplyBunny {
+    font-family:hercules; 
+    font-size: 25px;
+    padding: 15px 32px;
+    background-color: blanchedalmond;
+    border-radius: 25px;
+    
+}
+
+/*--------------------------------------------------------COUNTS------------------------------------------------------------*/
+
+#addClicker {
+    font-family:hercules; 
+    font-size: 25px;
+    
+}
+
+#addMultiply {
+    font-family:hercules; 
+    font-size: 25px;
+    
+}
+
+#addBunny{
+    font-size: 35px;
+    text-align: center;
+    font-family:hercules; 
+    
+}
+
+#multiplierPrice{
+    font-family:hercules; 
+    font-size: 20px;
+}
+
+#autoPrice{
+    font-family:hercules; 
+    font-size: 20px;
+}
+
+/*-----------------------------------------------------------PICTURES---------------------------------------------------------*/
+.bunny-image{
+    background-position: center;
+    width: 75%;
+    border-radius: 25px;
+    justify-content: center;
+    width: 300px;
+    height:400px;
+        
+}
+.bunny-image:active{
+    transform: scale(.9);
+    transition: .5s;
+}
+
+.rabbit-on-fire{
+    border-radius: 25px;
+    width: 75%;  
+    background-position: center;
+    
+}
+
+.clickMe{
+    width: 200px; 
+    height: 100px;
+       
+}
+
+#cookie{
+    height: 300px;
+    width: 440px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 25px;
+        
+}
+
+/*-----------------------------------------------------------LINKS---------------------------------------------------------*/
+
+.linkedIn a {
+    text-decoration: none;
+    color:rgb(49, 141, 110); 
+    font-size: 25px;
+    padding: 15px 32px;
+    background-color: blanchedalmond;
+    border-radius: 25px;
+    
+    
+}
+.cookieLink a{
+    text-decoration: none;
+    color:rgb(49, 141, 110); 
+    font-size: 25px;
+    padding: 15px 32px;
+    background-color: blanchedalmond;
+    border-radius: 25px;
+    
+}
+
+#playCookie{
+    text-align: center;
+    
+}

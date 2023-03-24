@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BunnyMaker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="hercules" href="/donut-maker-micker7/docs/hercules/Hercules.ttf">
+</head>
+
+<header class="headerGrid">
+    <h1>Welcome to Mickee's Bunny Making Company</h1>
+    <nav>
+        <a href="/donut-maker-micker7/docs/index.html">Make Bunnies</a> |
+        <a href="/donut-maker-micker7/docs/inspiration.html">Inspiration</a> |
+        <a href="/donut-maker-micker7/docs/aboutme.html">About Me</a> |
+    </nav>
+</header>
+
+<body>
+    <div class="grid">
+        <div class="left">
+            <button id="autoBunny" onclick="autoBunnyMaker()">Sacrifice Bunnies For An Automatic Bunny Maker</button>
+            <p id="addClicker">Automatic Maker Count: </p>
+            <p id="autoPrice">Price:  Bunnies</p>
+        </div>
+
+        <div class="middle">
+            <img class="clickMe" src="https://motivationbarometer.com/wp-content/uploads/2022/01/click-me-png-4-e1643373462365.png">
+            
+            <img class="bunny-image" id="cute" src="/donut-maker-micker7/docs/bunny.png" onclick="incrementBunny()">
+            
+            <p id="addBunny">Bunny Count: </p>            
+        </div>
+
+        <div class="right">
+            <button id="multiplyBunny" onclick="calculateBunnyMultiplier()">Add Bunny Multiplier</button>
+
+            <p id="addMultiply">Multiplier Count: </p>
+            <p id="multiplierPrice">Price:  Bunnies</p>
+        </div>
+        
+        <div >
+            <button id="resetButton" onclick="resetData()">Reset Game</button>
+        </div>
+    </div>
+    <script src="bunny.js"></script>
+</body>
+
+</html>
